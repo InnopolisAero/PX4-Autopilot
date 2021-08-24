@@ -49,6 +49,7 @@
 #include "accel.hpp"
 #include "gyro.hpp"
 #include "cbat.hpp"
+#include "ice_status.hpp"
 #include "fuel_tank_status.hpp"
 
 /*
@@ -77,6 +78,7 @@ void IUavcanSensorBridge::make_all(uavcan::INode &node, List<IUavcanSensorBridge
 	list.add(new UavcanRangefinderBridge(node));
 	list.add(new UavcanAccelBridge(node));
 	list.add(new UavcanGyroBridge(node));
+	list.add(new UavcanIceStatusBridge(node));
 	list.add(new UavcanFuelTankStatusBridge(node));
 }
 
