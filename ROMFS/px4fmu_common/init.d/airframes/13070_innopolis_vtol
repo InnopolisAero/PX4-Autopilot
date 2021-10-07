@@ -33,3 +33,4 @@ set MIXER inno_vtol_AAERT
 set PWM_OUT 1234
 set OUTPUT_MODE uavcan_esc
 set OUTPUT_AUX_DEV /dev/uavcan/esc
+set MIXER_AUX pass
