@@ -77,6 +77,7 @@ PARAM_DEFINE_INT32(SYS_AUTOCONFIG, 0);
  * @value 0 HITL and SIH disabled
  * @value 1 HITL enabled
  * @value 2 SIH enabled
+ * @value 3 Board sensors disabled
  * @reboot_required true
  *
  * @group System
